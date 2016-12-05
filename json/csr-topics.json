@@ -1,0 +1,10 @@
+[
+  {
+    "topic": "`_DEVICE_XXX_`",
+    "description": "Messages originating from a device get assigned a topic containing the device ID, e.g. `_DEVICE_1234_`."
+  },
+  {
+    "topic": "`_SMS_`, `_SMSDO_`",
+    "description": "Messages sent to the CSR via Hologram's SMS long code will contain these topics."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "package": "Automated installer",
+    "version": "0.9.0",
+    "link": "[Installer guide](/docs/guide/dash/programming) (recommended)"
+  },
+  {
+    "package": "Package Index file",
+    "version": "-",
+    "link": "[Download](http://downloads.hologram.io/arduino/package_konekt_index.json) (advanced users)"
+  }
+]

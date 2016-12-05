@@ -1,0 +1,82 @@
+[
+  {
+    "Symbol": "USB_IN_A",
+    "Description": "User USB Power Pins",
+    "Condition": "Any",
+    "Min": "4.5",
+    "Max": "5.5",
+    "Unit": "V"
+  },
+  {
+    "Symbol": "USB_IN_A",
+    "Description": "User USB Power Pins",
+    "Condition": "DC Mode",
+    "Min": "0",
+    "Max": "2",
+    "Unit": "A"
+  },
+  {
+    "Symbol": "USB_IN_A",
+    "Description": "User USB Power Pins",
+    "Condition": "Battery Mode",
+    "Min": "0",
+    "Max": "550",
+    "Unit": "mA"
+  },
+  {
+    "Symbol": "User USB",
+    "Description": "User USB Data Pins",
+    "Condition": "Any",
+    "Min": "-0.3",
+    "Max": "3.63",
+    "Unit": "V"
+  },
+  {
+    "Symbol": "User Analog",
+    "Description": "User Analog Pins",
+    "Condition": "Any",
+    "Min": "-0.3",
+    "Max": "4.1",
+    "Unit": "V"
+  },
+  {
+    "Symbol": "User GPIO",
+    "Description": "User General Purpose Input Output",
+    "Condition": "Any",
+    "Min": "-0.3",
+    "Max": "5.5",
+    "Unit": "V"
+  },
+  {
+    "Symbol": "VBATT",
+    "Description": "Battery Power Pins",
+    "Condition": "DC Mode",
+    "Min": "--",
+    "Max": "--",
+    "Unit": "V"
+  },
+  {
+    "Symbol": "VBATT",
+    "Description": "Battery Power Pins",
+    "Condition": "Battery Mode",
+    "Min": "2.2",
+    "Max": "4.4",
+    "Unit": "V"
+  },
+  {
+    "Symbol": "+5V",
+    "Description": "User +5V Supply",
+    "Condition": "Any",
+    "Min": "0",
+    "Max": "500",
+    "Unit": "mA"
+  },
+  {
+    "Symbol": "+3.3V",
+    "Description": "User +3.3V Supply",
+    "Condition": "Any",
+    "Min": "0",
+    "Max": "1",
+    "Unit": "A"
+  }
+]

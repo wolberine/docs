@@ -1,0 +1,14 @@
+[
+  {
+    "package": "Dash preloaded module",
+    "version": "0.4",
+    "link": "[Download](http://downloads.hologram.io/dash/user_module_stock/konekt_user_module_dash_0.4.bin)",
+    "sha1": "8efdfe5a7584f3030c276a9aa22cd1df97ad2b52"
+  },
+  {
+    "package": "Dash Pro preloaded module",
+    "version": "0.4",
+    "link": "[Download](http://downloads.hologram.io/dash/user_module_stock/konekt_user_module_dashpro_0.4.bin)",
+    "sha1": "f54807c3f709d99d1a89cb757f22a63dfd316fed"
+  }
+]

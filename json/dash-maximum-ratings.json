@@ -1,0 +1,26 @@
+[
+  {
+    "Symbol": "USB_IN_A",
+    "Description": "Voltage Input",
+    "Condition": "Battery Mode",
+    "Min": "4.5",
+    "Max": "5.5",
+    "Unit": "V"
+  },
+  {
+    "Symbol": "USB_IN_A",
+    "Description": "Voltage Input",
+    "Condition": "DC Mode",
+    "Min": "4.5",
+    "Max": "5.5",
+    "Unit": "V"
+  },
+  {
+    "Symbol": "USB_IN_A",
+    "Description": "Current Input",
+    "Condition": "Any",
+    "Min": "0",
+    "Max": "3",
+    "Unit": "A"
+  }
+]
