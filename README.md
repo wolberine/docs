@@ -2,7 +2,7 @@
 
 This repository contains the Markdown sources that we use to generate the
 [Hologram Documentation](https://hologram.io/docs/). If you spot an error or
-omission in our docs, please submit a Pull Request! 
+omission in our docs, please submit a pull request or open an issue.
 
 This repo has three subdirectories:
 
