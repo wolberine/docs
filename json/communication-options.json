@@ -1,0 +1,37 @@
+[
+  {
+    "Method": "[Hologram Cloud messaging](#hologram-cloud-messaging)",
+    "Outbound": "Yes",
+    "Inbound": "No",
+    "Pricing": "Data",
+    "Dash Support": "Yes"
+  },
+  {
+    "Method": "[Direct IP](#direct-ip)",
+    "Outbound": "Yes",
+    "Inbound": "Reply only",
+    "Pricing": "Data",
+    "Dash Support": "No"
+  },
+  {
+    "Method": "[Spacebridge IP Tunnel](#spacebridge-ip-tunnel)",
+    "Outbound": "Reply only",
+    "Inbound": "Yes",
+    "Pricing": "Data",
+    "Dash Support": "No"
+  },
+  {
+    "Method": "[SMS via Hologram Cloud](#sms-via-hologram-cloud)",
+    "Outbound": "Yes",
+    "Inbound": "Yes",
+    "Pricing": "Outbound: Data, Inbound: Free",
+    "Dash Support": "No"
+  },
+  {
+    "Method": "[Circuit-Switched SMS](#circuit-switched-sms)",
+    "Outbound": "Yes",
+    "Inbound": "Yes",
+    "Pricing": "Outbound: Per message, Inbound: Buy phone number",
+    "Dash Support": "No"
+  }
+]
