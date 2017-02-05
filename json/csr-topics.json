@@ -1,38 +1,10 @@
 [
   {
-    "topic": "`_API_RESP_`",
-    "description": "When you send data down to your device with our API or on the Dashboard, the response from the device will come back with this tag"
-  },
-  {
     "topic": "`_DEVICE_XXX_`",
     "description": "Messages originating from a device get assigned a topic containing the device ID, e.g. `_DEVICE_1234_`."
   },
   {
-    "topic": "`_JSONSTRING_`",
-    "description": "Messages that come in via our socket API and used the JSON data format"
-  },
-  {
-    "topic": "`_RESTAPI_`",
-    "description": "Messages that come in via our REST API (as opposed to our socket API)"
-  },
-  {
-    "topic": "`_SOCKETAPI_`",
-    "description": "Messages that come in via our socket API (as opposed to HTTP REST API)"
-  },
-  {
-    "topic": "`_SIMPLESTRING_`",
-    "description": "Messages that come in via our socket API and used the string data format"
-  },
-  {
-    "topic": "`_SMS_`",
-    "description": "Messages that come in through our SMS-over-IP endpoint, or the Hologram SMS phone number"
-  },
-  {
-    "topic": "`_SMS_DO_`",
-    "description": "Messages sent to the CSR via Hologram's SMS phone number will contain this topics."
-  },
-  {
-    "topic": "`_SMSOVERIP_`",
-    "description": "Messages that come in through our SMS-over-IP endpoint"
+    "topic": "`_SMS_`, `_SMSDO_`",
+    "description": "Messages sent to the CSR via Hologram's SMS long code will contain these topics."
   }
 ]
