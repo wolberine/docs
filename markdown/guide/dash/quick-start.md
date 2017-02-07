@@ -59,7 +59,7 @@ from the conductive packaging foam before powering it on.
 
 {{#callout type="warning"}}
 The Dash ships preconfigured for non-battery power,
-and connecting a battery in this mode will damage the Dash. If you wish to power
+and connecting a battery in this mode will **damage the Dash**. If you wish to power
 the Dash via battery, please consult the [Hologram Dash
 Datasheet](/docs/reference/dash/datasheet) for the correct jumper
 settings.
