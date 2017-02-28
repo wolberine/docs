@@ -6,48 +6,43 @@ layout: tutorial.hbs
 preview_image: "/wp-content/uploads/2017/02/onboarding-lesson1-wiring.png"
 ---
 
-### Overview
+### Introduction
+Hi and welcome to using the Hologram platform! This set of tutorials is meant to be used with the Onboarding Kit purchased through the store.  The purpose of these lessons is to demonstrate how you can robustly and securely build an IoT device with a few clicks and some lines of code.  The lessons walk users through much of the basic aspects of using the Hologram platform: from using Dash pin functionality all the way through sending an SMS to the Dash from your phone, parsing the message on the Dash, and sending data back to your phone.  Get excited!
 
-#### Bill of materials
+#### Bill of Materials
+The first thing we should do is make sure you have all the supplies you need for your Onboarding Kit.  You should have: 
 
 * 1 button
 * 1 LED
-* 2 Xohm resistors
+* 2 1.2 kohm resistors
 * 2 male-female 3-wire bundles
-* 10 male-male 3" wires
-* PIR sensor
-* DHT11 temperature sensor
-* Power brick
-* Dash Kit
+* 7 male-male 3" wires
+* 1 PIR sensor
+* 1 DHT11 temperature sensor
+* 1 Power brick
+* 1 Dash Kit
     * Antenna
     * Dash
     * SIM
     * USB
-* $5 promo balance (for purchasing phone number)
+* $5 promo balance on your account (comes free with your Onboarding Kit)
 
-#### Lesson plan
-6+ lessons which walk through exercising Dash functionality.  The first six
-lessons start and an LED blinking and build toward reading sensors and using
-inbound(SMS)/outbound(cloud) messages to report status and control the Dash
+#### Prerequisites
+This tutorial is not meant to teach people the ins and outs of working on embedded systems.  Rather, it's meant to get people who are already familiar with embedded systems (i.e. the Arduino) up and running quickly on the Hologram platform.  
 
-* Future opportunities are to work on low-level features such as alarms,
-  timers, sleep modes
-* Presumes some knowledge of Arduino programming/IDE
-* Presumes user has walked through the Dash set-up guide
-* Lesson Plan introduction will discuss what we're building and why
-  * A security system
-  * Demonstrate full list of basic Dash features
-* Some random ideas
-  * Link to community forum questions on bottom of each page
+Make sure you've already completed the Dash quickstart guide before beginning this tutorial.  This guide can be found at hologram.io/start.  Once you've completed this, come back and go through the lessons!
+
+Remember, the full Hologram platform functionality (Dash, connectivity, APIs, and cloud) documentation can always be found on our main docs page: http://hologram.staging.wpengine.com/docs/.
 
 ### Lesson 1 - Blink an LED
 
-* Blinking an LED is quick and easy on the Dash.  It works just like blinking an
+Blinking an LED is quick and easy on the Dash.  It works just like blinking an
   LED on the Arduino.  The differences between blinking an LED on the Arduino
   and the Dash lie in the different capabilities of the pinouts on each
   platform.  The Dash has 36 pins that are capable of several functions.  See
   the diagram below for capabilities: (insert our wiring diagram)
-* The first step is to place your Dash on the breadboard and wire up the
+
+The first step is to place your Dash on the breadboard and wire up the
   components.  See the Fritzing sketch below for a visual placement diagram.
   Please note the short edge of the LED is the negative terminal and should be
   connected to ground.
@@ -55,11 +50,11 @@ inbound(SMS)/outbound(cloud) messages to report status and control the Dash
 {{{ image src="/wp-content/uploads/2017/02/onboarding-lesson1-wiring.png"
     alt="Lesson 1 wiring diagram" }}}
 
-* Note: in sketches, all pins can be named via the generic left (L) and right
+Note: in sketches, all pins can be named via the generic left (L) and right
   (R) pin names (i.e. L18).  However D- pin names can only be configured as
-  digital outputs, A- pin names can only be configured as analog outputs....
-  need Erik to confirm...
-* Once you're all wired up there are a couple of things to note.
+  digital outputs, A- pin names can only be configured as analog outputs.
+  
+Once you're all wired up there are a couple of things to note.
     * In your setup function, the GPIO on the Dash needs to be set as an output pin. To blink the LED, we're setting digital pin D30 to an output.
 
 ```clike
@@ -96,8 +91,6 @@ void loop() {
 
 }
 ```
-
-Insert possible step-by-step wiring guide (Ryan's feedback)
 
 ### Lesson 2A - Read a Button Input
 
@@ -193,7 +186,7 @@ void loop() {
 }
 ```
 
-### Lesson 2B - Read a sensor input
+### Lesson 2B - Read a Sensor Input
 
 This half-lesson shows how you can use a PIR sensor to detect motion.  We'll
 see the PIR in action by reading the output of the PIR sensor  and if this
@@ -721,13 +714,4 @@ blinking an LED to controlling a microcontroller via SMS.  That's seriously a
 cool accomplishment.  For more Dash and Hologram Cloud functionality, check out
 our docs [here](/docs/).  If you have any questions or comments, contact
 us!
-
-### What's next?
-
-* Potential ideas: post any additions to the code to a community forum
-* Ask for help in the [community forum](https://community.hologram.io)
-* Integrate the temperature sensor into the status update
-    * Provide code
-* Advanced tutorial on lower level Dash features
-* Vote on next kit/sensor/tutorial we develop
 
